@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px)
+{
+  .App {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1050px)
+{
+  .App {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 1050px)
+{
+  .App {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 800px)
+{
+  .App {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .App {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 400px)
+{
+  .App {
+    max-width: 320px;
+  }
+}

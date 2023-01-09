@@ -1,1 +1,1 @@
-# advice_app
+This application was created with the purpose of at least a little help in a difficult time. The application gives a little advice and support in the hope that it will help you in some way. Thank you for your attention!
