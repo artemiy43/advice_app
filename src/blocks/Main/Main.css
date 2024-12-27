@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #a63840;
-    width: 100%;
+    width: 90%;
+    min-width: 320px;
+    max-width: 880px;
     height: 400px;
-    font-family: Inter;
+    letter-spacing: 0.15em;
+    font-family: monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -16,10 +18,33 @@
 .main__button {
     border-radius: 50px 50px;
     width: 200px;
-    height: 50px;
-    background-color: #e550aa;
+    height: 70px;
+    background-color: #301e29;
     color: white;
 }
+
+.main__text {
+    display: inline-block;
+    color: white;
+    letter-spacing: 0.15em;
+    font-family: monospace;
+    /* border-right: .15em solid rgb(214, 245, 38); */
+    overflow: hidden;
+    white-space: nowrap;
+    text-wrap: wrap;
+    margin: 0 auto;
+    /* animation: blink .8s step-end infinite; */
+}
+
+.main__text-container {
+    display: inline-block;
+}
+
+.animate {
+    animation: typing 3s;
+}
+
+
 
 .main__button:hover {
     cursor: pointer;

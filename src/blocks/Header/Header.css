@@ -1,26 +1,68 @@
 .header {
-    font-family: Inter;
+    letter-spacing: 0.15em;
+    font-family: monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 29px;
-    padding: 50px 0 50px;
+    line-height: 35px;
+    padding: 50px;
     color: white;
 }
 
+.header__title {
+    display: inline-block;
+    box-sizing: content-box;
+    line-height: 35px;
+    color: white;
+    letter-spacing: 0.15em;
+    font-family: monospace;
+    border-right: .15em solid rgb(214, 245, 38);
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 1.5s steps(16, end),blink .8s step-end infinite;
+}
+
+.header__text {
+    font-family: monospace;font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to { width: 100%;}
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: rgb(214, 245, 38);
+    }
+}
 @media (max-width: 800px)
 {
     .header {
         font-size: 20px;
         line-height: 26px;
+        padding: 25px;
     }
 }
 
 
-@media (max-width: 400px)
+@media (max-width: 500px)
 {
     .header {
         font-size: 18px;
         line-height: 22px;
+    }
+
+    .header__title {
+        font-size: 24px;
     }
 }
