@@ -1,1 +1,3 @@
-This application was created with the purpose of at least a little help in a difficult time. The application gives a little advice and support in the hope that it will help you in some way. Thank you for your attention!
+#Приложение - получи совет
+## Стек: React JS, Advice API
+### Описание: Это приложение создано с целью хоть немного помочь в трудную минуту. Приложение дает небольшой совет и поддержку в надежде, что оно вам чем-то поможет. Спасибо за внимание!
